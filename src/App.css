@@ -1,0 +1,48 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.input-box-todo {
+  width: 400px;
+  height: 40px;
+  border-radius: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: none;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  width: 44px;
+  height: 40px;
+
+  border-style: none;
+  border-radius: 20px;
+  margin-left: 20px;
+  background-color: blue;
+}
+
+.li-item {
+
+  display: flex;
+
+  align-items: center;
+
+  color: white;
+  font-size: 28px;
+  border: 1px solid white;
+
+  justify-content: space-between;
+  padding: 0px 22px;
+  box-sizing: border-box;
+  height: 50px;
+  margin: 20px 0px;
+}
+.li-item  .fa-solid:hover{
+color: red;
+font-size: 30px;
+}
+
